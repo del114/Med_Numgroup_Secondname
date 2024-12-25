@@ -28,12 +28,11 @@ p::first-letter {
 section:hover {
     background-color: rgb(245, 48, 206);
 }
-.myimage-div
-{
-    display: none;
-    text-align: left;
-}
-a.myimage-ssilka:hover+div
-{
-    display: block;
+aside{
+    background: rgb(233, 180, 217);
+    float: left;
+    padding-left: 10px;
+    padding-right: 0px;
+    width: 18%;
+    height: 1000px;
 }
