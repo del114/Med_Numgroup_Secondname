@@ -1,0 +1,113 @@
+body{
+    margin: 5px;
+    padding: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    text-align: center;
+     color: rgb(255, 255, 255);
+     background-color: rgb(232, 102, 88);
+}
+p{
+    text-align: center;
+    text-indent: 8ch;
+}
+h1{
+    float: left;
+    background-color: rgb(255, 255, 255);
+}
+img.r{
+    float: right;
+}
+nav,
+li{
+    text-align: center;
+    background-color: rgb(240, 235, 228);
+}
+div.l{
+    width: 65%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+p.l{
+    font-size: larger;
+    text-align: justify;
+}
+p.ll{
+    font-size: medium;
+    text-align: justify;
+}
+div.ll{
+    background-color: rgb(255, 255, 255);
+}
+Body.l{
+    background-color: rgb(232, 102, 88);
+}
+div.r{
+    display: flex;
+}
+div.t{
+    width: 65%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+p.t{
+    font-size: larger;
+    text-align: justify;
+}
+p.tt{
+    font-size: medium;
+    text-align: justify;
+}
+div.tt{
+    background-color: rgb(255, 255, 255);
+}
+div.f{
+    width: 65%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+p.f{
+    font-size: larger;
+    text-align: justify;
+}
+p.ff{
+    font-size: medium;
+    text-align: justify;
+}
+div.ff{
+    background-color: rgb(255, 255, 255);
+}
+table{
+    background-color: rgb(240, 235, 228);
+    text-align: justify;
+}
+div.g{
+    float: left;
+}
+.textcols {
+	display: table;
+	width: 100%;
+	border-collapse: collapse;
+}
+.textcols-row {
+	 display: table-row;
+}
+.textcols-item {
+	display: table-cell;	
+	width: 33%;
+	vertical-align: top;
+	padding: 0;
+	background: #fff2e1;
+	border-right: 30px solid #fff;
+	border-left: 30px solid #fff;
+}
+.textcols-row .textcols-item:first-child {
+	border-left: none;
+}
+.textcols-row .textcols-item:last-child {
+	border-right: none;
+}
